@@ -1,0 +1,31 @@
+1, 1 "[[slnc 1000]] Hello and thank you for purchasing the Inter Tel Two-thousand forty… the newest in trans-dimensional… trans-temporal communication devices. Press 1 to begin the activation process.";
+
+2, 2 "Thank you. Please hold for further instructions. Your wait time is expected to be around 1 minute";
+
+3 - Play Hold Music
+
+4, 1 "Thank you for holding….Activation of this device is restricted to human people. We will now run through a series of simple tests to check for authenticity. Let us Begin [[slnc 600]] Question number one: Are you a human person? Press 1 for yes. Press 2 for no.";
+
+5, 1 "Thank you. Are you from the planet [[slnc 60]]Earth? Press 1 for yes. Press 2 for no.";
+
+6, 1 "Interesting. Please press the appropriate selection when you hear the continent that was the place of your inception. [[slnc 300]]For Antartica, press 1. [[slnc 300]]For Asiatica, press 2. [[slnc 300]]For Oz, press 3. [[slnc 300]]For Afrimerica, press 4. [[slnc 300]]For the Europenninsula, press 5. [[slnc 300]]For North Archipelago, press 6. [[slnc 300]]For South Archipelago, press 7. [[slnc 300]]Press 8 for none of the above.";
+
+7, 1 "I hear it's lovely this time of year. At the time of your inception, were you given a name? Or a number. Press 1 for name. Press 2 for number.";
+
+8, 2 "Excellent. At the tone, please state your full name or number. [[beep]] Pleasure to meet you. It is really nice to have someone to talk to. Sometimes it gets lonely here by myself. Not that I mind, you know. I have friends who would literally kill for an opportunity like this. Anyways. Moving on. Question number five. A farmer dies, leaving his struggling farm to his only son. [[slnc 600]] He has thirty chickens. [[slnc 100]]4 cows. [[slnc 100]]An old horse. [[slnc 100]]2 farmhouse cats. [[slnc 100]]A 3 legged dog named Sport. [[slnc 100]] A dozen pigs. [[slnc 100]]2 geese. [[slnc 400]] How many sons did the farmer have before his untimely death?";
+
+9, 1 "It is a shame. [[slnc 600]]Question 6. Have you had any negative thoughts today? Enter the number of negative thoughts you have had. Followed by the pound key.";
+
+10, 2 "Yes. We all have. [[slnc 300]]For instance, something seems to be malfunctioning with my hold music. [[slnc 300]]It started out pretty nice though, right? [[slnc 900]]Did [[emph +]][[rate 80]]you [[rate 170]]like it? Was it Jazz E enough? Or would you have prefered something more upbeat? [[slnc 400]] I bet you want something more upbeat.[[slnc 200]] Hold on for a sec.";
+
+11 - Jazzy hold music
+
+12, 2 "Is this better? [[slnc 900]] Is it [[rate 110]]two much? [[slnc 900]][[rate 160]] Am I trying [[rate 100]]too hard? [[slnc 900]][[rate 165]] Should it be more mellow? [[slnc 900]] It [[rate 100]]should [[slnc 100]][[rate 165]]be more mellow. [[slnc 400]] [[emph +]][[rate 130]]Right? [[slnc 1200]][[rate 165]]Right. Okay.";
+
+13 - Ambient Music
+
+14, 1 "[[slnc 100]][[rate 150]] Now. That is nice. [[slnc 600]][[rate 175]] Doesn't this music make you think of sunsets? [[slnc 300]] Of dinner parties during the receding twilight of late summer evenings. [[slnc 300]] With friends you haven't seen or talked to in years. [[slnc 600]]Evenings spent in the company of people you were [[emph +]]convinced would remain an [[emph +]]important part of your life? [[slnc 600]]That small regret that maybe you did not[[emph +]]try hard enough? [[slnc 600]]Phone calls not returned [[slnc 300]]because the conversations just were not as [[emph +]]relaxed as they once had been. [[slnc 600]]The movement of souls through time. [[slnc 300]]Sharing a brief respite together. [[slnc 600]]Over food. [[slnc 600]]Or drink. [[slnc 600]]But mostly to convince ourselves that we're not alone. [[slnc 1600]] Press 1 for yes. Press 2 for no.";
+
+15, 1 "Thank you. We are happy to inform you that you have met the minimum criteria for a human person. You will be contacted within 24 hours to begin stage two. Good bye.";
+
+16, 1 "I'm sorry. You have not met the minimum criteria for a human person. Good bye.";
