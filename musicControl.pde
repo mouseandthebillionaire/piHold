@@ -29,7 +29,7 @@ void loadMusic(){
   println("Loading Music");
   output = minim.getLineOut();
   
-  holdMusic = new FilePlayer(minim.loadFileStream("music/holdMusic_1.wav"));
+  holdMusic = new FilePlayer(minim.loadFileStream("music/holdMusic_1.aiff"));
   jazzyMusic = minim.loadFile("music/jazzy.wav");
   ambientMusic = minim.loadFile("music/ambient.wav");
     
