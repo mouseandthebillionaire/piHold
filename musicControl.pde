@@ -5,7 +5,7 @@ import ddf.minim.ugens.*;
 Minim minim;
 AudioOutput output;
 
-FilePlayer holdMusic;
+Sampler holdMusic;
 AudioPlayer jazzyMusic;
 AudioPlayer ambientMusic;
 AudioPlayer phoneTones;
@@ -29,7 +29,7 @@ void loadMusic(){
   println("Loading Music");
   output = minim.getLineOut();
   
-  holdMusic = new FilePlayer(minim.loadFileStream("music/holdMusic_1.aiff"));
+  holdMusic = new Sampler("music/holdMusic_1.aiff", 4, minim);
   jazzyMusic = minim.loadFile("music/jazzy.wav");
   ambientMusic = minim.loadFile("music/ambient.wav");
     
@@ -40,7 +40,7 @@ void loadMusic(){
    
   phoneTones = minim.loadFile("music/phoneTones.wav");
   
-  holdMusic.loop();  
+  holdMusic.trigger();  
   holdMusic.patch(delay).patch(bitCrush).patch(lpf).patch(output);
 
   
@@ -106,7 +106,7 @@ void addCrusher(){
 
 void getJazzy(){
   output.setGain(-60);
-  holdMusic.pause();
+  holdMusic.stop();
   jazzyMusic.play();
 }
 
@@ -133,7 +133,7 @@ void resetHoldMusic(){
   delaying = false;
   filtering = false;
   crushing = false; 
-  holdMusic.loop();
+  holdMusic.trigger();
 }
 
 void stopHoldMusic(){
